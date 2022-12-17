@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj": {}
+    "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj": {}
   },
   "projects": {
-    "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj": {
+    "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj",
+        "projectUniqueName": "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj",
         "projectName": "platzi-school",
-        "projectPath": "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj",
+        "projectPath": "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj",
         "packagesPath": "C:\\Users\\josed\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\obj\\",
+        "outputPath": "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

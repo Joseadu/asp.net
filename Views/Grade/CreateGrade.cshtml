@@ -1,0 +1,25 @@
+﻿@model Grade
+@{
+    ViewData["Title"] = "Creación de Cursos";
+    Layout = "Simple";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form action="" method="POST">
+    <div>
+        <label asp-for="Name">Nombre</label>
+        <input asp-for="Name" type="text">
+    </div>
+    <div>
+        <label asp-for="Dirección">Dirección</label>
+        <input asp-for="Dirección" type="text">
+    </div>
+    <div>
+        <label asp-for="Jornada">Jornada</label>
+        <input asp-for="Jornada" type="text">
+    </div>
+    <input value="Enviar" type="submit">
+</form>
+
+<p>Fecha: @ViewBag.date</p>

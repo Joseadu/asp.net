@@ -9,45 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = platzi_school
 build_property.RootNamespace = platzi_school
-build_property.ProjectDir = c:\Users\josed\programacion\Cursos\Platzi\backend-c#-.net\asp.net\platzi-school\
+build_property.ProjectDir = C:\Users\josed\programacion\Cursos\Platzi\backend-c#-.net\asp.net\platzi-school\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\josed\programacion\Cursos\Platzi\backend-c#-.net\asp.net\platzi-school
+build_property.MSBuildProjectDirectory = C:\Users\josed\programacion\Cursos\Platzi\backend-c#-.net\asp.net\platzi-school
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Home/Index.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Grade/CreateGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVcQ3JlYXRlR3JhZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Grade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Grade/MultiGrade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVcTXVsdGlHcmFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Home/Privacy.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/School/Index.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/School/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Nob29sXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/Error.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/Simple.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/Simple.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpbXBsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/_ListSchoolBase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaXN0U2Nob29sQmFzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/_ObjetoEscuelaSimple.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PYmpldG9Fc2N1ZWxhU2ltcGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/_ViewImports.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Student/MultiStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxNdWx0aVN0dWRlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Subject/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Subject/MultiSubject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViamVjdFxNdWx0aVN1YmplY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/_ViewStart.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/_Layout.cshtml]
+[C:/Users/josed/programacion/Cursos/Platzi/backend-c\#-.net/asp.net/platzi-school/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-24zrgwp953

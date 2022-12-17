@@ -11,17 +11,16 @@ namespace platzi_school.Controllers
     {
         public IActionResult Index()
         {
-            School school = new School()
-            {
-                Name = "Platzi",
-                SchoolId = Guid.NewGuid().ToString(),
-                FoundationYear = 2005
-            };
-            
             ViewBag.cosaDinamica = "Espigator";
-
+            var school = _context.Schools.FirstOrDefault();
             return View(school);
+        }
 
+        private SchoolContext _context;
+
+        public SchoolController(SchoolContext context)
+        {
+            _context = context;
         }
     }
 }

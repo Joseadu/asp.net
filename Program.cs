@@ -1,9 +1,26 @@
+using Microsoft.EntityFrameworkCore;
+using platzi_school.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<SchoolContext>(p => p.UseInMemoryDatabase("SchoolDB"));
 
 var app = builder.Build();
+
+using(var scope=app.Services.CreateScope()){
+    var serv=scope.ServiceProvider;
+    try
+    {
+        var contex=serv.GetRequiredService<SchoolContext>();
+        contex.Database.EnsureCreated();
+    }
+    catch (System.Exception)
+    {
+        throw;
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
