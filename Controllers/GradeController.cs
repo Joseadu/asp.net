@@ -9,7 +9,7 @@ namespace platzi_school.Controllers
 {
     public class GradeController : Controller
     {
-        // [Route("student/index")]
+        [Route("student/index")]
         // [Route("student/index/{id}")]
         public IActionResult Index(string id)
         {
@@ -45,13 +45,20 @@ namespace platzi_school.Controllers
         {
             ViewBag.date = DateTime.Now;
 
-            var school = _context.Schools.FirstOrDefault();
-            grade.SchoolId = school?.Id;
+            if(ModelState.IsValid)
+            {
+                var school = _context.Schools.FirstOrDefault();
+                grade.SchoolId = school?.Id;
 
-            _context.Grades.Add(grade);
+                _context.Grades.Add(grade);
 
-            _context.SaveChanges();
-            return View();
+                _context.SaveChanges();
+                return View("Index", grade);
+            }
+            else
+            {
+                return View(grade);
+            }
         }
 
         private SchoolContext _context;

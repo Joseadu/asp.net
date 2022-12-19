@@ -1,15 +1,24 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace platzi_school.Models
 {
     public class School:SchoolBaseObject
     {
+        [Required]
+        [Range(4, 4)]
         public int AñoDeCreación { get; set; }
 
+        [Required]
+        [MaxLength(20)]
         public string? Pais { get; set; }
+        [Required]
+        [MaxLength(20)]
         public string? Ciudad { get; set; }
 
+        [Required]
+        [MaxLength(40)]
         public string? Dirección { get; set; }
 
         // Referencia a la interfaz TiposEscuela

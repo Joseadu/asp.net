@@ -98,14 +98,16 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "101",
-                    Jornada = TiposJornada.Mañana
+                    Jornada = TiposJornada.Mañana,
+                    Dirección=""
                 },
                 new Grade()
                 {
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "201",
-                    Jornada = TiposJornada.Mañana
+                    Jornada = TiposJornada.Mañana,
+                    Dirección=""
                 }
                 ,
                 new Grade()
@@ -113,7 +115,8 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "301",
-                    Jornada = TiposJornada.Tarde
+                    Jornada = TiposJornada.Tarde,
+                    Dirección=""
                 }
                 ,
                 new Grade()
@@ -121,7 +124,8 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "401",
-                    Jornada = TiposJornada.Tarde
+                    Jornada = TiposJornada.Tarde,
+                    Dirección=""
                 }
                 ,
                 new Grade()
@@ -129,7 +133,8 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "501",
-                    Jornada = TiposJornada.Noche
+                    Jornada = TiposJornada.Noche,
+                    Dirección=""
                 }
             };
         }
