@@ -8,34 +8,34 @@ namespace platzi_school.Models
     {
         [Required]
         [Range(4, 4)]
-        public int AñoDeCreación { get; set; }
+        public int CreationDate { get; set; }
 
         [Required]
         [MaxLength(20)]
-        public string? Pais { get; set; }
+        public string? Country { get; set; }
         [Required]
         [MaxLength(20)]
-        public string? Ciudad { get; set; }
+        public string? City { get; set; }
 
         [Required]
         [MaxLength(40)]
         public string? Dirección { get; set; }
 
         // Referencia a la interfaz TiposEscuela
-        public TiposEscuela TipoEscuela { get; set; }
+        public TypeSchool TypeSchool { get; set; }
 
         // Referencia al modelo hijo Grade
         public List<Grade>? Grades { get; set; }
 
-        public School(string nombre, int año) => (Name, AñoDeCreación) = (nombre, año);
+        public School(string nanme, int year) => (Name, CreationDate) = (nanme, year);
 
-        public School(string nombre, int año, 
-                       TiposEscuela tipo, 
-                       string pais = "", string ciudad = "") : base()
+        public School(string name, int year, 
+                       TypeSchool tipo, 
+                       string country = "", string city = "") : base()
         {
-            (Name, AñoDeCreación) = (nombre, año);
-            Pais = pais;
-            Ciudad = ciudad;
+            (Name, CreationDate) = (name, year);
+            Country = country;
+            City = city;
         }
         public School()
         {
@@ -44,7 +44,7 @@ namespace platzi_school.Models
 
         public override string ToString()
         {
-            return $"Nombre: \"{Name}\", Tipo: {TipoEscuela} {System.Environment.NewLine} Pais: {Pais}, Ciudad:{Ciudad}";
+            return $"Nombre: \"{Name}\", Tipo: {TypeSchool} {System.Environment.NewLine} Pais: {Country}, Ciudad:{City}";
         }
     }
 }

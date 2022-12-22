@@ -21,7 +21,7 @@ namespace platzi_school.Models
         [MaxLength(50)]
         public string? Dirección { get; set; }
         
-        public TiposJornada Jornada { get; set; }
+        public TypeDay TypeDay { get; set; }
 
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj": {}
+    "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj": {
+    "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj",
+        "projectUniqueName": "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj",
         "projectName": "platzi-school",
-        "projectPath": "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj",
+        "projectPath": "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\platzi-school.csproj",
         "packagesPath": "C:\\Users\\josed\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\obj\\",
+        "outputPath": "c:\\Users\\josed\\programacion\\Cursos\\Platzi\\backend-c#-.net\\asp.net\\platzi-school\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\josed\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,7 +42,13 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
@@ -51,6 +57,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             }
           },
           "imports": [

@@ -24,9 +24,9 @@ namespace platzi_school.Models
             {
                 Name = "Platzi",
                 Id = Guid.NewGuid().ToString(),
-                AñoDeCreación = 2006,
-                Pais = "España",
-                Ciudad = "Málaga",
+                CreationDate = 2006,
+                Country = "España",
+                City = "Málaga",
                 Dirección = "Avenida Alameda"
             };
 
@@ -98,7 +98,7 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "101",
-                    Jornada = TiposJornada.Mañana,
+                    TypeDay = TypeDay.Morning,
                     Dirección=""
                 },
                 new Grade()
@@ -106,7 +106,7 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "201",
-                    Jornada = TiposJornada.Mañana,
+                    TypeDay = TypeDay.Morning,
                     Dirección=""
                 }
                 ,
@@ -115,7 +115,7 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "301",
-                    Jornada = TiposJornada.Tarde,
+                    TypeDay = TypeDay.Afternoon,
                     Dirección=""
                 }
                 ,
@@ -124,7 +124,7 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "401",
-                    Jornada = TiposJornada.Tarde,
+                    TypeDay = TypeDay.Afternoon,
                     Dirección=""
                 }
                 ,
@@ -133,7 +133,7 @@ namespace platzi_school.Models
                     Id = Guid.NewGuid().ToString(),
                     SchoolId = school.Id,
                     Name = "501",
-                    Jornada = TiposJornada.Noche,
+                    TypeDay = TypeDay.Evening,
                     Dirección=""
                 }
             };
@@ -143,10 +143,10 @@ namespace platzi_school.Models
         {
             string[] name1 = { "Alba", "Felipa", "Eusebio", "Farid", "Donald", "Alvaro", "Nicolás" };
             string[] lastName = { "Ruiz", "Sarmiento", "Uribe", "Maduro", "Trump", "Toledo", "Herrera" };
-            string[] nombrname2 = { "Freddy", "Anabel", "Rick", "Murty", "Silvana", "Diomedes", "Nicomedes", "Teodoro" };
+            string[] name2 = { "Freddy", "Anabel", "Rick", "Murty", "Silvana", "Diomedes", "Nicomedes", "Teodoro" };
 
             var studentList = from n1 in name1
-                               from n2 in nombrname2
+                               from n2 in name2
                                from ln in lastName
                                select new Student
                                {

@@ -17,9 +17,9 @@
         <input asp-for="Dirección" type="text">
     </div>
     <div>
-        <label asp-for="Jornada">Jornada</label>
+        <label asp-for="TypeDay">Jornada</label>
         @Html.DropDownList(
-            "Jornada", Html.GetEnumSelectList<TiposJornada>(),
+            "Jornada", Html.GetEnumSelectList<TypeDay>(),
             "Seleccionar",
             new {@class = "form-control"}
         )
